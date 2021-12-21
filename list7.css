@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: #ebf6f9;
+	font-family: 'GowunBatang-Regular';
+}
+
+p{
+  display: inline;
+}
+
+h1{
+  display: inline;
+}
+h3{
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+button{
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: white;
+  font-family: 'GowunBatang-Regular';
+}
+
+textarea{
+  vertical-align: top;
+  font-family: 'GowunBatang-Regular';
+}
+
+table{
+  margin: 5px;
+  display: block;
+  border: 1px solid black;
+  cursor:pointer;
+}
+
+table:hover{
+  background-color: #D3D3D3;
+  transition: 0.5s;
+}
+
+tr{
+  text-align: left;
+}
+
+input{
+  font-family: 'GowunBatang-Regular';
+}
+
+ul{
+  /* margin-right: 7px; */
+  padding-left: 30px;
+}
+
+li{
+  margin-bottom: 5px;
+  width: 80%;
+}
+span:hover{
+  cursor: pointer;
+}
+
+.userBox{
+  text-align: right;
+}
+
+.mainMenu{
+  margin: 15px;
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.moveBtn{
+  background-color: white;
+  border: 1px solid gray;
+  cursor: pointer;
+  position: relative;
+  bottom: 8px;
+}
+.moveBtn:hover{
+  transition: 0.1s;
+}
+
+.categoryBox{
+  margin-top: 5px;
+  margin-left:5px;
+  width: 300px;
+  position: relative;
+}
+
+.dateBox{
+  text-align: center;
+}
+
+.buttonMenu{
+  display: inline-block;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.diaryBox{
+  z-index: 3;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  border: 3px solid gray;
+  width: 700px;
+  font-size: 18px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.w_diaryBox{
+  z-index: 3;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  border: 3px solid gray;
+  width: 700px;
+  font-size: 18px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+
+.firstLine{
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.secondLine{
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.thirdLine{
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.forthLine{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.planListBox{
+  background-color: white;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 55%;
+  height: 500px;
+  margin-left: 8%;
+  overflow: auto;
+}
+.todoListBox{
+  background-color: white;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 25%;
+  height: 500px;
+  overflow: auto;
+}
+.diarymoveBtn{
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 9px;
+  cursor: pointer;
+  display: inline;
+}
+
+
+.diarymoveBtn:hover{
+  background-color: #D3D3D3;
+}
+
+.todoRemove{
+  position: absolute;
+  right: 10px;
+}
+
+
+.pick{
+  display: none;
+  width:210px;
+  border: 1px solid gray;
+  position: absolute;
+  top:65px;
+  right: 0;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.w_pick{
+  display: none;
+  width:210px;
+  border: 1px solid gray;
+  position: absolute;
+  top:65px;
+  right: 0;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.searchpick{
+  display: none;
+  width:190px;
+  border: 1px solid gray;
+  position: absolute;
+  top:30px;
+  right: 0;
+  z-index: 2;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.wheatherpick{
+  display: none;
+  width:190px;
+  border: 1px solid gray;
+  position: absolute;
+  top:65px;
+  right: 80px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.w_wheatherpick{
+  display: none;
+  width:190px;
+  border: 1px solid gray;
+  position: absolute;
+  top:65px;
+  right: 80px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.searchwheatherpick{
+  display: none;
+  width:170px;
+  border: 1px solid gray;
+  position: absolute;
+  top:28px;
+  right: 80px;
+  z-index: 2;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#date{
+  display: inline;
+}
+
+#w_date{
+  display: inline;
+}
+
+#Xbutton{
+  float: right;
+}
+
+#w_Xbutton{
+  float: right;
+}
+
+#userID{
+  text-decoration: underline;
+}
+
+button:hover{
+  background-color: #D3D3D3;
+}
+
+.pick span:hover{
+  background-color: blue;
+}
+
+.wheatherpick span:hover{
+  background-color: blue;
+}
+
+.w_pick span:hover{
+  background-color: blue;
+}
+
+.w_wheatherpick span:hover{
+  background-color: blue;
+}
+
+.searchpick span:hover{
+  background-color: blue;
+}
+
+.searchwheatherpick span:hover{
+  background-color: blue;
+}

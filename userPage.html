@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="userPage3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>하루기록 다이어리</title>
+  </head>
+  <body>
+    <div class = "userBox">
+      안녕하세요, <p id="userID"></p>님!
+      <button type="button" id="logout">로그아웃</button>
+    </div>
+    <div class="firstBox">
+      <h1>나의 도전</h1>
+      <!-- 도전 개수는 사용자가 완료한 챌린지 개수를 세서 리턴. 여기서는 임의로 설정 -->
+      <div id="completeNumber"></div>/6
+    </div>
+    <div class="menuBox">
+      <button id="calendarIcon" class="button" type="button">달력</button>
+      <button id="listIcon" class="button" type="button">리스트</button>
+    </div>
+    <div class="mainMenu">
+      <!-- 획득시 검정색으로 표시 -->
+      <!-- 미획득된 도전은 회색으로 표시 -->
+      <div class="tableBox" id="first">
+        <div class="title"><span>첫 걸음</span></div>
+        <img src="data/image/first.png" alt="발걸음">
+        <div class="content">처음으로 일기 작성시 획득</div>
+      </div>
+      <div class="tableBox" id="weekend">
+        <div class="title"><span>꾸준함이 살길이다</span></div>
+        <img src="data/image/exercise.png" alt="운동">
+        <div class="content">7일 이상 일기 작성시 획득</div>
+      </div>
+      <div class="tableBox" id="three">
+        <div class="title"><span>오늘은 할 말이 많아</span></div>
+        <img src="data/image/speak.png" alt="입술">
+        <div class="content">하루에 일기 3번 이상 작성시 획득</div>
+      </div>
+      <div class="tableBox" id="month">
+        <div class="title"><span>한 달은 가뿐히</span></div>
+        <img src="data/image/month.png" alt="꽃">
+        <div class="content">30일 이상 일기 작성시 획득</div>
+      </div>
+      <div class="tableBox" id="happy">
+        <div class="title"><span>기분 좋은 일기장</span></div>
+        <img src="data/image/happy.png" alt="스마일">
+        <div class="content">작성한 일기 중 😄가 3개 이상일 경우 획득</div>
+      </div>
+      <div class="tableBox" id="sunny">
+        <div class="title"><span>날씨가 좋은 일기장</span></div>
+        <img src="data/image/weather.png" alt="화창">
+        <div class="content">작성한 일기 중 🌞가 3개 이상일 경우 획득</div>
+      </div>
+    </div>
+  <script src = "userPage1.js"></script>
+  </body>
+</html>

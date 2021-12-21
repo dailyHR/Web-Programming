@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  background-color: #ebf6f9;
+  font-family: 'GowunBatang-Regular';
+}
+
+h1{
+  display: inline;
+}
+p{
+  display: inline;
+}
+
+.title{
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tableBox div{
+  margin-top: 25px;
+}
+.content{
+  display: none;
+}
+button{
+  font-family: 'GowunBatang-Regular';
+}
+
+.tableBox{
+  margin-top: 10px;
+  margin-left: 5px;
+  display: inline-table;
+  border: 1px solid gray;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  background-color: white;
+}
+
+/* tr{
+  text-align: left;
+} */
+button{
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: white;
+  font-family: 'GowunBatang-Regular';
+}
+
+img{
+  margin-top: 25px;
+  width: 85px;
+  height: 85px;
+}
+.userBox{
+  text-align: right;
+}
+.menuBox{
+  text-align: center;
+}
+.firstBox{
+  text-align: center;
+}
+
+.mainMenu{
+  margin: 15px;
+  width:790px;
+  margin-left:auto;
+  margin-right:auto;
+  color: gray;
+}
+.incomplete{
+  color: gray;
+}
+button:hover{
+  background-color: #D3D3D3;
+}
+
+#completeNumber{
+  display: inline;
+}
+
+#userID{
+  text-decoration: underline;
+}

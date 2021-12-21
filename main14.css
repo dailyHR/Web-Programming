@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: #ebf6f9;
+	font-family: 'GowunBatang-Regular';
+}
+
+p{
+  display: inline;
+}
+
+h1{
+  display: inline;
+}
+
+button{
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: white;
+  font-family: 'GowunBatang-Regular';
+}
+
+table{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+
+}
+
+th{
+  border: 1px solid gray;
+  background-color: powderblue;
+  height: 30px;
+}
+
+td{
+  border: 1px solid gray;
+  width: 60px;
+  height: 80px;
+  text-align: right;
+  vertical-align: top;
+  background-color: white;
+}
+
+textarea{
+  vertical-align: top;
+  font-family: 'GowunBatang-Regular';
+}
+
+input{
+  font-family: 'GowunBatang-Regular';
+}
+
+span:hover{
+  cursor: pointer;
+}
+
+.userBox{
+  text-align: right;
+}
+
+.dateBox{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menuBox{
+  text-align: center;
+}
+
+.diaryBox{
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  border: 3px solid gray;
+  width: 700px;
+  font-size: 18px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.w_diaryBox{
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  border: 3px solid gray;
+  width: 700px;
+  font-size: 18px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.firstLine{
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.secondLine{
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.thirdLine{
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.forthLine{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.moveBtn{
+  background-color: white;
+  border: 1px solid gray;
+  cursor: pointer;
+  position: relative;
+  bottom: 8px;
+}
+.moveBtn:hover{
+  transition: 0.1s;
+}
+
+.diarymoveBtn{
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 9px;
+  cursor: pointer;
+  display: inline;
+}
+
+.diarymoveBtn:hover{
+  background-color: #D3D3D3;
+
+}
+
+.diaryBtn{
+  margin-top: 7px;
+}
+.diaryBtn:hover{
+  background-color: #D3D3D3;
+}
+
+.pick{
+  display: none;
+  width:210px;
+  border: 1px solid gray;
+  position: absolute;
+  top:30px;
+  right: 0;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.w_pick{
+  display: none;
+  width:210px;
+  border: 1px solid gray;
+  position: absolute;
+  top:30px;
+  right: 0;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.wheatherpick{
+  display: none;
+  width:190px;
+  border: 1px solid gray;
+  position: absolute;
+  top:30px;
+  right: 80px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.w_wheatherpick{
+  display: none;
+  width:190px;
+  border: 1px solid gray;
+  position: absolute;
+  top:30px;
+  right: 80px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#date{
+  display: inline;
+}
+
+#w_date{
+  display: inline;
+}
+
+#Xbutton{
+  float: right;
+}
+
+#w_Xbutton{
+  float: right;
+}
+
+
+#userID{
+  text-decoration: underline;
+}
+
+button:hover{
+  background-color: #D3D3D3;
+}
+
+.pick span:hover{
+  background-color: blue;
+}
+
+.wheatherpick span:hover{
+  background-color: blue;
+}
+
+
+td button{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: white;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main14.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>하루기록 다이어리</title>
+  </head>
+  <body>
+    <div class = "userBox">
+      안녕하세요, <p id="userID"></p>님!
+      <button type="button" id="logout">로그아웃</button>
+    </div>
+    <div class="dateBox">
+      <button id="prevMonth" class="moveBtn" type="button" name="button"><</button>
+      <h1></h1>
+      <button id="nextMonth" class="moveBtn" type="button" name="button">></button>
+    </div>
+    <div class="menuBox">
+      <button id="listIcon" class="button" type="button">리스트</button>
+      <button id="writePlan" class="button" type="button">일기 작성</button>
+      <button id="user" class="button" type="button">사용자 정보</button>
+    </div>
+    <br>
+    <div class="diaryBox">
+      <div class="firstLine">
+        <label>날짜</label>
+        <div id ="date"></div>
+        <button id="Xbutton" type="button">X</button><br>
+      </div>
+      <div class="secondLine">
+        <label>제목 </label>
+        <input id="title" type="text" value="" size="55">
+        <label>날씨</label>
+        <input id="wheather" type="text" value="" size=1 readonly>
+        <span id="wheatherPicker">🌞</span>
+          <div class="wheatherpick">
+            <span>🌞</span>
+            <span>⛅</span>
+            <span>☔</span>
+            <span>⚡</span>
+            <span>🌈</span>
+            <span>❄</span>
+            <span>🌫</span>
+          </div>
+        <label>기분</label>
+        <input id="feeling" type="text" value="" size=1 readonly>
+        <span id="emojiPicker">🙂</span>
+          <div class="pick">
+            <span>😄</span>
+            <span>😆</span>
+            <span>😅</span>
+            <span>🤣</span>
+            <span>🥰</span>
+            <span>🤔</span>
+            <span>😪</span>
+            <span>🤒</span>
+            <span>😭</span>
+            <span>🤬</span>
+            <span>🤢</span>
+            <span>😑</span>
+            <span>😳</span>
+            <span>😱</span>
+          </div>
+      </div>
+      <br>
+      <div class="thirdLine">
+        <label id="textLabel">내용</label>
+        <textarea id="textPlan" name="name" rows="20" cols="94"></textarea><br>
+      </div>
+      <div class="forthLine">
+        <button id="completeButton" type="button" name="button">작성 완료</button>
+      </div>
+    </div>
+
+    <div class="w_diaryBox">
+      <div class="firstLine">
+        <label>날짜</label>
+        <div id ="w_date"></div>
+        <button id="w_Xbutton" type="button">X</button><br>
+      </div>
+      <div class="secondLine">
+        <label>제목 </label>
+        <input id="w_title" type="text" name="" value="" size="55">
+        <label>날씨</label>
+        <input id="w_wheather" type="text" name="" value="" size=1 readonly>
+        <span id="w_wheatherPicker">🌞</span>
+          <div class="w_wheatherpick">
+            <span>🌞</span>
+            <span>⛅</span>
+            <span>☔</span>
+            <span>⚡</span>
+            <span>🌈</span>
+            <span>❄</span>
+            <span>🌫</span>
+          </div>
+        <label>기분</label>
+        <input id="w_feeling" type="text" name="" value="" size=1 readonly>
+        <span id="w_emojiPicker">🙂</span>
+          <div class="w_pick">
+            <span>😄</span>
+            <span>😆</span>
+            <span>😅</span>
+            <span>🤣</span>
+            <span>🥰</span>
+            <span>🤔</span>
+            <span>😪</span>
+            <span>🤒</span>
+            <span>😭</span>
+            <span>🤬</span>
+            <span>🤢</span>
+            <span>😑</span>
+            <span>😳</span>
+            <span>😱</span>
+          </div>
+      </div>
+      <br>
+      <div class="thirdLine">
+        <label id="textLabel">내용</label>
+        <textarea id="w_textPlan" name="name" rows="20" cols="94"></textarea><br>
+      </div>
+      <div class="forthLine">
+        <button id="prevDiary" class="diarymoveBtn" type="button" name="button"><</button>
+        <button id="modifyDiary" type="button" name="button">수정</button>
+        <button id="removeDiary" type="button" name="button">삭제</button>
+        <button id="nextDiary" class="diarymoveBtn" type="button" name="button">></button>
+      </div>
+    </div>
+
+    <div class="calenderBox">
+      <table>
+        <thead>
+          <tr>
+            <th>일</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+            <th>토</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <script src = "main8.js"></script>
+  </body>
+</html>
